@@ -13,7 +13,7 @@ function setup(){
 function draw(){
   background(0,0,55);
   fill(255);
-  for(let i = 0; i < 12; i++){
+  for(let i = 0; i < 22; i++){
     for(let j = 0; j < 5; j++){
  star(60 * i,60 * j,10,0);}}
 
