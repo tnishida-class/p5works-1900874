@@ -12,7 +12,7 @@ function setup(){
 
 function draw(){
   background(160, 192, 255);
-  star(x,y,20,20);
+  star(x,y,20,x/3);
   // BLANK[2] (hint: 作った star 関数を使います)
  x += vx;
   y += vy;
